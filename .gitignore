@@ -1,0 +1,22 @@
+# Byte-compiled / Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Large binary 3D model assets (>100MB GitHub limits) and temporary workspace outputs
+models/raw/*.stl
+models/raw/*.obj
+outputs/
+logs/
+_backup_phase0/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/.vite/
+
+# System / OS
+.DS_Store
+Thumbs.db
+*.log
